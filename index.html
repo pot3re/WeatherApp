@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="reset.css" type="text/css"/> -->
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    <main>
+        <h2>Weather App</h2>
+        <div class="search">
+                <input type="text" placeholder="Ex. Warsaw"/>
+                <button><img src="img/search.svg" alt="search"/></button>
+        </div>
+        <hr/>
+        <div class="weather">
+            <div class="img">
+                <img src="img/01.svg" alt="icon"/>
+                <p >-</p>
+            </div>
+            <h2 class="temp">-°c</h2>
+            <p class="city">-</p>
+        </div>
+        <div class="details">
+            <div class="detailsIcon">
+                <img class="invert" src="img/foggy.svg" alt="fog"/>
+                <p class="humidity">-%</p>
+                <p>humidity</p>
+            </div>
+            <div class="detailsIcon">
+                <img class="invert" src="img/windy.svg" alt="fog"/>
+                <p class="wind">- km/h</p>
+                <p>Wind speed</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Wykonał: Piotr Czyżak, 118682</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
