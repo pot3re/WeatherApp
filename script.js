@@ -18,4 +18,8 @@ async function checkWeather(city){
     document.querySelector(".wind").innerHTML = data.wind.speed + ' km/h';
 }
 
+searchBtn.addEventListener("click", ()=>{
+    checkWeather(searchBox.value);
+})
+
 checkWeather('warsaw');
